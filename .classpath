@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="tests"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.debug_3.8.102.v20150115-1323"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt_3.10.1.v20150204-1700.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.annotation_1.1.0.v20140129-1625.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.annotation_2.0.0.v20140415-1436.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.apt.core_3.3.600.v20150122-0735.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.apt.pluggable.core_1.0.400.v20131113-0353.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.apt.ui_3.3.400.v20140311-1758.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.compiler.apt_1.1.0.v20150122-0735.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.compiler.tool_1.0.300.v20150114-1827.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.core_3.10.2.v20150120-1634.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.core.manipulation_1.5.0.v20130605-1748.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.debug.ui_3.6.300.v20140512-1926.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.doc.user_3.10.1.v20140827-1504.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.junit_3.7.300.v20140418-0836.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.junit.core_3.7.300.v20140409-1618.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.junit.runtime_3.4.500.v20140527-1138.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.junit4.runtime_1.1.400.v20140314-0036.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.launching_3.7.102.v20141111-0953.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.launching.macosx_3.2.300.v20130801-1441.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.launching.ui.macosx_1.0.300.v20130801-1441.jar"/>
+	<classpathentry exported="true" kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.ui_3.10.2.v20141014-1419.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
