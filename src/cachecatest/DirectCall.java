@@ -19,7 +19,7 @@ public class DirectCall {
                 .computeCompletionProposalsTest(activationToken, qualifier, offset);
         for (ICompletionProposal x : proposals)
         {
-            System.out.println(x.getDisplayString());
+            System.out.println(x.getDisplayString() + "\n");
         }
     }
 }
