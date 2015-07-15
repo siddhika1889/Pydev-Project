@@ -210,9 +210,7 @@ public class KeywordsSimpleAssist implements ISimpleAssistParticipant, ISimpleAs
                 }
             }
         }
-        for (ICompletionProposal i : results) {
-            System.out.println("Proposal:" + i.getDisplayString() + "\n");
-        }
+
         return results;
     }
 
