@@ -1,1203 +1,613 @@
-*************Offset*********:1
 *************Activation Token*********:
 *************Qualifier*********:i
 Proposal Keyword Simple Assist:import
-*************Offset*********:1
+Actual string :import
 *************Activation Token*********:
 *************Qualifier*********:s
 Proposal Keyword Simple Assist:self
-*************Offset*********:1
+Actual string :string
 *************Activation Token*********:
 *************Qualifier*********:i
 Proposal Keyword Simple Assist:import
-*************Offset*********:1
+Actual string :import
 *************Activation Token*********:
 *************Qualifier*********:s
 Proposal Keyword Simple Assist:self
-*************Offset*********:1
+Actual string :sys
 *************Activation Token*********:
 *************Qualifier*********:i
 Proposal Keyword Simple Assist:import
-*************Offset*********:1
+Actual string :import
 *************Activation Token*********:
 *************Qualifier*********:r
 Proposal Keyword Simple Assist:raise
 Proposal Keyword Simple Assist:return
-*************Offset*********:1
+Actual string :re
 *************Activation Token*********:
 *************Qualifier*********:d
 Proposal Keyword Simple Assist:def
 Proposal Keyword Simple Assist:del
-*************Offset*********:1
+Actual string :def
 *************Activation Token*********:
 *************Qualifier*********:m
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :main
 *************Activation Token*********:
 *************Qualifier*********:(
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :(
 *************Activation Token*********:
 *************Qualifier*********:)
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :)
 *************Activation Token*********:
 *************Qualifier*********::
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string ::
 *************Activation Token*********:
 *************Qualifier*********:p
 Proposal Keyword Simple Assist:pass
 Proposal Keyword Simple Assist:print
-*************Offset*********:1
+Actual string :pats
 *************Activation Token*********:
 *************Qualifier*********:=
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :=
 *************Activation Token*********:
 *************Qualifier*********:m
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :map
 *************Activation Token*********:
 *************Qualifier*********:(
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :(
 *************Activation Token*********:
 *************Qualifier*********:c
 Proposal Keyword Simple Assist:class
 Proposal Keyword Simple Assist:continue
-*************Offset*********:1
+Actual string :chomp
 *************Activation Token*********:
 *************Qualifier*********:,
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :,
 *************Activation Token*********:sys.
 *************Qualifier*********:
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :sys.
 *************Activation Token*********:stdin.
 *************Qualifier*********:
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :stdin.
 *************Activation Token*********:
 *************Qualifier*********:r
 Proposal Keyword Simple Assist:raise
 Proposal Keyword Simple Assist:return
-*************Offset*********:1
+Actual string :readlines
 *************Activation Token*********:
 *************Qualifier*********:(
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :(
 *************Activation Token*********:
 *************Qualifier*********:)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :)
 *************Activation Token*********:
 *************Qualifier*********:)
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :)
 *************Activation Token*********:
 *************Qualifier*********:b
 Proposal Keyword Simple Assist:break
-*************Offset*********:1
+Actual string :bigpat
 *************Activation Token*********:
 *************Qualifier*********:=
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :=
 *************Activation Token*********:
 *************Qualifier*********:(
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :(
 *************Activation Token*********:
 *************Qualifier*********:+
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :+
 *************Activation Token*********:|.
 *************Qualifier*********:
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :|.
 *************Activation Token*********:
 *************Qualifier*********:j
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :join
 *************Activation Token*********:
 *************Qualifier*********:(
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :(
 *************Activation Token*********:
 *************Qualifier*********:p
 Proposal Keyword Simple Assist:pass
 Proposal Keyword Simple Assist:print
-*************Offset*********:1
+Actual string :pats
 *************Activation Token*********:
 *************Qualifier*********:)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :)
 *************Activation Token*********:
 *************Qualifier*********:+
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :+
 *************Activation Token*********:
 *************Qualifier*********:)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :)
 *************Activation Token*********:
 *************Qualifier*********:p
 Proposal Keyword Simple Assist:pass
 Proposal Keyword Simple Assist:print
-*************Offset*********:1
+Actual string :prog
 *************Activation Token*********:
 *************Qualifier*********:=
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :=
 *************Activation Token*********:re.
 *************Qualifier*********:
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :re.
 *************Activation Token*********:
 *************Qualifier*********:c
 Proposal Keyword Simple Assist:class
 Proposal Keyword Simple Assist:continue
-*************Offset*********:1
+Actual string :compile
 *************Activation Token*********:
 *************Qualifier*********:(
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :(
 *************Activation Token*********:
 *************Qualifier*********:b
 Proposal Keyword Simple Assist:break
-*************Offset*********:1
+Actual string :bigpat
 *************Activation Token*********:
 *************Qualifier*********:)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :)
 *************Activation Token*********:
 *************Qualifier*********:f
 Proposal Keyword Simple Assist:finally:
 Proposal Keyword Simple Assist:for
 Proposal Keyword Simple Assist:from
-*************Offset*********:1
+Actual string :for
 *************Activation Token*********:
 *************Qualifier*********:f
 Proposal Keyword Simple Assist:finally:
 Proposal Keyword Simple Assist:for
 Proposal Keyword Simple Assist:from
-*************Offset*********:1
+Actual string :file
 *************Activation Token*********:
 *************Qualifier*********:i
 Proposal Keyword Simple Assist:import
-*************Offset*********:1
+Actual string :in
 *************Activation Token*********:sys.
 *************Qualifier*********:
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :sys.
 *************Activation Token*********:
 *************Qualifier*********:a
 Proposal Keyword Simple Assist:and
 Proposal Keyword Simple Assist:assert
-*************Offset*********:1
+Actual string :argv
 *************Activation Token*********:
 *************Qualifier*********:[
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :[
 *************Activation Token*********:
 *************Qualifier*********:1
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :1.0
 *************Activation Token*********:
 *************Qualifier*********::
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string ::
 *************Activation Token*********:
 *************Qualifier*********:]
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :]
 *************Activation Token*********:
 *************Qualifier*********::
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string ::
 *************Activation Token*********:
 *************Qualifier*********:t
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :try
 *************Activation Token*********:
 *************Qualifier*********::
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string ::
 *************Activation Token*********:
 *************Qualifier*********:f
 Proposal Keyword Simple Assist:finally:
 Proposal Keyword Simple Assist:for
 Proposal Keyword Simple Assist:from
-*************Offset*********:1
+Actual string :fp
 *************Activation Token*********:
 *************Qualifier*********:=
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :=
 *************Activation Token*********:
 *************Qualifier*********:o
 Proposal Keyword Simple Assist:object
-*************Offset*********:1
+Actual string :open
 *************Activation Token*********:
 *************Qualifier*********:(
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :(
 *************Activation Token*********:
 *************Qualifier*********:f
 Proposal Keyword Simple Assist:finally:
 Proposal Keyword Simple Assist:for
 Proposal Keyword Simple Assist:from
-*************Offset*********:1
+Actual string :file
 *************Activation Token*********:
 *************Qualifier*********:,
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :,
 *************Activation Token*********:
 *************Qualifier*********:r
 Proposal Keyword Simple Assist:raise
 Proposal Keyword Simple Assist:return
-*************Offset*********:1
+Actual string :r
 *************Activation Token*********:
 *************Qualifier*********:)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :)
 *************Activation Token*********:
 *************Qualifier*********:e
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :except
 *************Activation Token*********:
 *************Qualifier*********:I
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :IOError
 *************Activation Token*********:
 *************Qualifier*********:,
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :,
 *************Activation Token*********:
 *************Qualifier*********:m
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :msg
 *************Activation Token*********:
 *************Qualifier*********::
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string ::
 *************Activation Token*********:
 *************Qualifier*********:p
 Proposal Keyword Simple Assist:pass
 Proposal Keyword Simple Assist:print
-*************Offset*********:1
+Actual string :print
 *************Activation Token*********:
 *************Qualifier*********:%
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :%s:
 *************Activation Token*********:
 *************Qualifier*********:%
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :%s
 *************Activation Token*********:
 *************Qualifier*********:%
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :%
 *************Activation Token*********:
 *************Qualifier*********:(
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :(
 *************Activation Token*********:
 *************Qualifier*********:f
 Proposal Keyword Simple Assist:finally:
 Proposal Keyword Simple Assist:for
 Proposal Keyword Simple Assist:from
-*************Offset*********:1
+Actual string :file
 *************Activation Token*********:
 *************Qualifier*********:,
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :,
 *************Activation Token*********:
 *************Qualifier*********:m
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :msg
 *************Activation Token*********:
 *************Qualifier*********:)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :)
 *************Activation Token*********:
 *************Qualifier*********:c
 Proposal Keyword Simple Assist:class
 Proposal Keyword Simple Assist:continue
-*************Offset*********:1
+Actual string :continue
 *************Activation Token*********:
 *************Qualifier*********:l
 Proposal Keyword Simple Assist:lambda
-*************Offset*********:1
+Actual string :lineno
 *************Activation Token*********:
 *************Qualifier*********:=
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :=
 *************Activation Token*********:
 *************Qualifier*********:0
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :0.0
 *************Activation Token*********:
 *************Qualifier*********:w
 Proposal Keyword Simple Assist:while
 Proposal Keyword Simple Assist:with
-*************Offset*********:1
+Actual string :while
 *************Activation Token*********:
 *************Qualifier*********:1
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :1.0
 *************Activation Token*********:
 *************Qualifier*********::
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string ::
 *************Activation Token*********:
 *************Qualifier*********:l
 Proposal Keyword Simple Assist:lambda
-*************Offset*********:1
+Actual string :line
 *************Activation Token*********:
 *************Qualifier*********:=
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :=
 *************Activation Token*********:fp.
 *************Qualifier*********:
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :fp.
 *************Activation Token*********:
 *************Qualifier*********:r
 Proposal Keyword Simple Assist:raise
 Proposal Keyword Simple Assist:return
-*************Offset*********:1
+Actual string :readline
 *************Activation Token*********:
 *************Qualifier*********:(
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :(
 *************Activation Token*********:
 *************Qualifier*********:)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :)
 *************Activation Token*********:
 *************Qualifier*********:i
 Proposal Keyword Simple Assist:import
-*************Offset*********:1
+Actual string :if
 *************Activation Token*********:
 *************Qualifier*********:n
 Proposal Keyword Simple Assist:not
-*************Offset*********:1
+Actual string :not
 *************Activation Token*********:
 *************Qualifier*********:l
 Proposal Keyword Simple Assist:lambda
-*************Offset*********:1
+Actual string :line
 *************Activation Token*********:
 *************Qualifier*********::
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string ::
 *************Activation Token*********:
 *************Qualifier*********:b
 Proposal Keyword Simple Assist:break
-*************Offset*********:1
+Actual string :break
 *************Activation Token*********:
 *************Qualifier*********:l
 Proposal Keyword Simple Assist:lambda
-*************Offset*********:1
+Actual string :lineno
 *************Activation Token*********:
 *************Qualifier*********:=
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :=
 *************Activation Token*********:
 *************Qualifier*********:l
 Proposal Keyword Simple Assist:lambda
-*************Offset*********:1
+Actual string :lineno
 *************Activation Token*********:
 *************Qualifier*********:+
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :+
 *************Activation Token*********:
 *************Qualifier*********:1
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :1.0
 *************Activation Token*********:
 *************Qualifier*********:i
 Proposal Keyword Simple Assist:import
-*************Offset*********:1
+Actual string :if
 *************Activation Token*********:prog.
 *************Qualifier*********:
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :prog.
 *************Activation Token*********:
 *************Qualifier*********:s
 Proposal Keyword Simple Assist:self
-*************Offset*********:1
+Actual string :search
 *************Activation Token*********:
 *************Qualifier*********:(
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :(
 *************Activation Token*********:
 *************Qualifier*********:l
 Proposal Keyword Simple Assist:lambda
-*************Offset*********:1
+Actual string :line
 *************Activation Token*********:
 *************Qualifier*********:)
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :)
 *************Activation Token*********:
 *************Qualifier*********::
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string ::
 *************Activation Token*********:
 *************Qualifier*********:p
 Proposal Keyword Simple Assist:pass
 Proposal Keyword Simple Assist:print
-*************Offset*********:1
+Actual string :print
 *************Activation Token*********:
 *************Qualifier*********:%
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :%s:%s:%s
 *************Activation Token*********:
 *************Qualifier*********:%
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :%
 *************Activation Token*********:
 *************Qualifier*********:(
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :(
 *************Activation Token*********:
 *************Qualifier*********:f
 Proposal Keyword Simple Assist:finally:
 Proposal Keyword Simple Assist:for
 Proposal Keyword Simple Assist:from
-*************Offset*********:1
+Actual string :file
 *************Activation Token*********:
 *************Qualifier*********:,
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :,
 *************Activation Token*********:
 *************Qualifier*********:l
 Proposal Keyword Simple Assist:lambda
-*************Offset*********:1
+Actual string :lineno
 *************Activation Token*********:
 *************Qualifier*********:,
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :,
 *************Activation Token*********:
 *************Qualifier*********:l
 Proposal Keyword Simple Assist:lambda
-*************Offset*********:1
+Actual string :line
 *************Activation Token*********:
 *************Qualifier*********:)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :)
 *************Activation Token*********:
 *************Qualifier*********:,
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :,
 *************Activation Token*********:
 *************Qualifier*********:d
 Proposal Keyword Simple Assist:def
 Proposal Keyword Simple Assist:del
-*************Offset*********:1
+Actual string :def
 *************Activation Token*********:
 *************Qualifier*********:c
 Proposal Keyword Simple Assist:class
 Proposal Keyword Simple Assist:continue
-*************Offset*********:1
+Actual string :chomp
 *************Activation Token*********:
 *************Qualifier*********:(
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :(
 *************Activation Token*********:
 *************Qualifier*********:s
 Proposal Keyword Simple Assist:self
-*************Offset*********:1
+Actual string :s
 *************Activation Token*********:
 *************Qualifier*********:)
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :)
 *************Activation Token*********:
 *************Qualifier*********::
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string ::
 *************Activation Token*********:
 *************Qualifier*********:r
 Proposal Keyword Simple Assist:raise
 Proposal Keyword Simple Assist:return
-*************Offset*********:1
+Actual string :return
 *************Activation Token*********:s.
 *************Qualifier*********:
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :s.
 *************Activation Token*********:
 *************Qualifier*********:r
 Proposal Keyword Simple Assist:raise
 Proposal Keyword Simple Assist:return
-*************Offset*********:1
+Actual string :rstrip
 *************Activation Token*********:
 *************Qualifier*********:(
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :(
 *************Activation Token*********:
 *************Qualifier*********:)
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Proposal default activation block 1:IndentationError
-Proposal default activation block 1:IndexError
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-Proposal default activation block 1:input(prompt)
-Proposal default activation block 1:int
-Proposal default activation block 1:intern(string)
-Proposal default activation block 1:IOError
-Proposal default activation block 1:isinstance(object, class_or_type_or_tuple)
-Proposal default activation block 1:issubclass(C, B)
-Proposal default activation block 1:iter(collection)
-*************Offset*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :)
 *************Activation Token*********:
 *************Qualifier*********:i
 Proposal Keyword Simple Assist:import
-*************Offset*********:1
+Actual string :if
 *************Activation Token*********:
 *************Qualifier*********:_
 Proposal Keyword Simple Assist:__init__
-*************Offset*********:1
+Actual string :__name__
 *************Activation Token*********:
 *************Qualifier*********:=
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ini - def __init__(self):
-Proposal default activation block 1:inip - def __init__(self, ${params})
-*************Offset*********:1
+Actual string :==
 *************Activation Token*********:
 *************Qualifier*********:_
 Proposal Keyword Simple Assist:__init__
-*************Offset*********:1
+Actual string :__main__
 *************Activation Token*********:
 *************Qualifier*********::
-Proposal default activation block 1:id(object)
-Proposal default activation block 1:import - import keyword
-Proposal default activation block 1:ImportError
-Proposal default activation block 1:ImportWarning
-Propo
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string ::
+*************Activation Token*********:
+*************Qualifier*********:m
+Actual string :main
+*************Activation Token*********:
+*************Qualifier*********:(
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :(
+*************Activation Token*********:
+*************Qualifier*********:)
+Actual string :)
