@@ -1,0 +1,613 @@
+*************Activation Token*********:
+*************Qualifier*********:i
+Proposal Keyword Simple Assist:import
+Actual string :import
+*************Activation Token*********:
+*************Qualifier*********:s
+Proposal Keyword Simple Assist:self
+Actual string :string
+*************Activation Token*********:
+*************Qualifier*********:i
+Proposal Keyword Simple Assist:import
+Actual string :import
+*************Activation Token*********:
+*************Qualifier*********:s
+Proposal Keyword Simple Assist:self
+Actual string :sys
+*************Activation Token*********:
+*************Qualifier*********:i
+Proposal Keyword Simple Assist:import
+Actual string :import
+*************Activation Token*********:
+*************Qualifier*********:r
+Proposal Keyword Simple Assist:raise
+Proposal Keyword Simple Assist:return
+Actual string :re
+*************Activation Token*********:
+*************Qualifier*********:d
+Proposal Keyword Simple Assist:def
+Proposal Keyword Simple Assist:del
+Actual string :def
+*************Activation Token*********:
+*************Qualifier*********:m
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :main
+*************Activation Token*********:
+*************Qualifier*********:(
+Actual string :(
+*************Activation Token*********:
+*************Qualifier*********:)
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :)
+*************Activation Token*********:
+*************Qualifier*********::
+Actual string ::
+*************Activation Token*********:
+*************Qualifier*********:p
+Proposal Keyword Simple Assist:pass
+Proposal Keyword Simple Assist:print
+Actual string :pats
+*************Activation Token*********:
+*************Qualifier*********:=
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :=
+*************Activation Token*********:
+*************Qualifier*********:m
+Actual string :map
+*************Activation Token*********:
+*************Qualifier*********:(
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :(
+*************Activation Token*********:
+*************Qualifier*********:c
+Proposal Keyword Simple Assist:class
+Proposal Keyword Simple Assist:continue
+Actual string :chomp
+*************Activation Token*********:
+*************Qualifier*********:,
+Actual string :,
+*************Activation Token*********:sys.
+*************Qualifier*********:
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :sys.
+*************Activation Token*********:stdin.
+*************Qualifier*********:
+Actual string :stdin.
+*************Activation Token*********:
+*************Qualifier*********:r
+Proposal Keyword Simple Assist:raise
+Proposal Keyword Simple Assist:return
+Actual string :readlines
+*************Activation Token*********:
+*************Qualifier*********:(
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :(
+*************Activation Token*********:
+*************Qualifier*********:)
+Actual string :)
+*************Activation Token*********:
+*************Qualifier*********:)
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :)
+*************Activation Token*********:
+*************Qualifier*********:b
+Proposal Keyword Simple Assist:break
+Actual string :bigpat
+*************Activation Token*********:
+*************Qualifier*********:=
+Actual string :=
+*************Activation Token*********:
+*************Qualifier*********:(
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :(
+*************Activation Token*********:
+*************Qualifier*********:+
+Actual string :+
+*************Activation Token*********:|.
+*************Qualifier*********:
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :|.
+*************Activation Token*********:
+*************Qualifier*********:j
+Actual string :join
+*************Activation Token*********:
+*************Qualifier*********:(
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :(
+*************Activation Token*********:
+*************Qualifier*********:p
+Proposal Keyword Simple Assist:pass
+Proposal Keyword Simple Assist:print
+Actual string :pats
+*************Activation Token*********:
+*************Qualifier*********:)
+Actual string :)
+*************Activation Token*********:
+*************Qualifier*********:+
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :+
+*************Activation Token*********:
+*************Qualifier*********:)
+Actual string :)
+*************Activation Token*********:
+*************Qualifier*********:p
+Proposal Keyword Simple Assist:pass
+Proposal Keyword Simple Assist:print
+Actual string :prog
+*************Activation Token*********:
+*************Qualifier*********:=
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :=
+*************Activation Token*********:re.
+*************Qualifier*********:
+Actual string :re.
+*************Activation Token*********:
+*************Qualifier*********:c
+Proposal Keyword Simple Assist:class
+Proposal Keyword Simple Assist:continue
+Actual string :compile
+*************Activation Token*********:
+*************Qualifier*********:(
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :(
+*************Activation Token*********:
+*************Qualifier*********:b
+Proposal Keyword Simple Assist:break
+Actual string :bigpat
+*************Activation Token*********:
+*************Qualifier*********:)
+Actual string :)
+*************Activation Token*********:
+*************Qualifier*********:f
+Proposal Keyword Simple Assist:finally:
+Proposal Keyword Simple Assist:for
+Proposal Keyword Simple Assist:from
+Actual string :for
+*************Activation Token*********:
+*************Qualifier*********:f
+Proposal Keyword Simple Assist:finally:
+Proposal Keyword Simple Assist:for
+Proposal Keyword Simple Assist:from
+Actual string :file
+*************Activation Token*********:
+*************Qualifier*********:i
+Proposal Keyword Simple Assist:import
+Actual string :in
+*************Activation Token*********:sys.
+*************Qualifier*********:
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :sys.
+*************Activation Token*********:
+*************Qualifier*********:a
+Proposal Keyword Simple Assist:and
+Proposal Keyword Simple Assist:assert
+Actual string :argv
+*************Activation Token*********:
+*************Qualifier*********:[
+Actual string :[
+*************Activation Token*********:
+*************Qualifier*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :1.0
+*************Activation Token*********:
+*************Qualifier*********::
+Actual string ::
+*************Activation Token*********:
+*************Qualifier*********:]
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :]
+*************Activation Token*********:
+*************Qualifier*********::
+Actual string ::
+*************Activation Token*********:
+*************Qualifier*********:t
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :try
+*************Activation Token*********:
+*************Qualifier*********::
+Actual string ::
+*************Activation Token*********:
+*************Qualifier*********:f
+Proposal Keyword Simple Assist:finally:
+Proposal Keyword Simple Assist:for
+Proposal Keyword Simple Assist:from
+Actual string :fp
+*************Activation Token*********:
+*************Qualifier*********:=
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :=
+*************Activation Token*********:
+*************Qualifier*********:o
+Proposal Keyword Simple Assist:object
+Actual string :open
+*************Activation Token*********:
+*************Qualifier*********:(
+Actual string :(
+*************Activation Token*********:
+*************Qualifier*********:f
+Proposal Keyword Simple Assist:finally:
+Proposal Keyword Simple Assist:for
+Proposal Keyword Simple Assist:from
+Actual string :file
+*************Activation Token*********:
+*************Qualifier*********:,
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :,
+*************Activation Token*********:
+*************Qualifier*********:r
+Proposal Keyword Simple Assist:raise
+Proposal Keyword Simple Assist:return
+Actual string :r
+*************Activation Token*********:
+*************Qualifier*********:)
+Actual string :)
+*************Activation Token*********:
+*************Qualifier*********:e
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :except
+*************Activation Token*********:
+*************Qualifier*********:I
+Actual string :IOError
+*************Activation Token*********:
+*************Qualifier*********:,
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :,
+*************Activation Token*********:
+*************Qualifier*********:m
+Actual string :msg
+*************Activation Token*********:
+*************Qualifier*********::
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string ::
+*************Activation Token*********:
+*************Qualifier*********:p
+Proposal Keyword Simple Assist:pass
+Proposal Keyword Simple Assist:print
+Actual string :print
+*************Activation Token*********:
+*************Qualifier*********:%
+Actual string :%s:
+*************Activation Token*********:
+*************Qualifier*********:%
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :%s
+*************Activation Token*********:
+*************Qualifier*********:%
+Actual string :%
+*************Activation Token*********:
+*************Qualifier*********:(
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :(
+*************Activation Token*********:
+*************Qualifier*********:f
+Proposal Keyword Simple Assist:finally:
+Proposal Keyword Simple Assist:for
+Proposal Keyword Simple Assist:from
+Actual string :file
+*************Activation Token*********:
+*************Qualifier*********:,
+Actual string :,
+*************Activation Token*********:
+*************Qualifier*********:m
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :msg
+*************Activation Token*********:
+*************Qualifier*********:)
+Actual string :)
+*************Activation Token*********:
+*************Qualifier*********:c
+Proposal Keyword Simple Assist:class
+Proposal Keyword Simple Assist:continue
+Actual string :continue
+*************Activation Token*********:
+*************Qualifier*********:l
+Proposal Keyword Simple Assist:lambda
+Actual string :lineno
+*************Activation Token*********:
+*************Qualifier*********:=
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :=
+*************Activation Token*********:
+*************Qualifier*********:0
+Actual string :0.0
+*************Activation Token*********:
+*************Qualifier*********:w
+Proposal Keyword Simple Assist:while
+Proposal Keyword Simple Assist:with
+Actual string :while
+*************Activation Token*********:
+*************Qualifier*********:1
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :1.0
+*************Activation Token*********:
+*************Qualifier*********::
+Actual string ::
+*************Activation Token*********:
+*************Qualifier*********:l
+Proposal Keyword Simple Assist:lambda
+Actual string :line
+*************Activation Token*********:
+*************Qualifier*********:=
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :=
+*************Activation Token*********:fp.
+*************Qualifier*********:
+Actual string :fp.
+*************Activation Token*********:
+*************Qualifier*********:r
+Proposal Keyword Simple Assist:raise
+Proposal Keyword Simple Assist:return
+Actual string :readline
+*************Activation Token*********:
+*************Qualifier*********:(
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :(
+*************Activation Token*********:
+*************Qualifier*********:)
+Actual string :)
+*************Activation Token*********:
+*************Qualifier*********:i
+Proposal Keyword Simple Assist:import
+Actual string :if
+*************Activation Token*********:
+*************Qualifier*********:n
+Proposal Keyword Simple Assist:not
+Actual string :not
+*************Activation Token*********:
+*************Qualifier*********:l
+Proposal Keyword Simple Assist:lambda
+Actual string :line
+*************Activation Token*********:
+*************Qualifier*********::
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string ::
+*************Activation Token*********:
+*************Qualifier*********:b
+Proposal Keyword Simple Assist:break
+Actual string :break
+*************Activation Token*********:
+*************Qualifier*********:l
+Proposal Keyword Simple Assist:lambda
+Actual string :lineno
+*************Activation Token*********:
+*************Qualifier*********:=
+Actual string :=
+*************Activation Token*********:
+*************Qualifier*********:l
+Proposal Keyword Simple Assist:lambda
+Actual string :lineno
+*************Activation Token*********:
+*************Qualifier*********:+
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :+
+*************Activation Token*********:
+*************Qualifier*********:1
+Actual string :1.0
+*************Activation Token*********:
+*************Qualifier*********:i
+Proposal Keyword Simple Assist:import
+Actual string :if
+*************Activation Token*********:prog.
+*************Qualifier*********:
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :prog.
+*************Activation Token*********:
+*************Qualifier*********:s
+Proposal Keyword Simple Assist:self
+Actual string :search
+*************Activation Token*********:
+*************Qualifier*********:(
+Actual string :(
+*************Activation Token*********:
+*************Qualifier*********:l
+Proposal Keyword Simple Assist:lambda
+Actual string :line
+*************Activation Token*********:
+*************Qualifier*********:)
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :)
+*************Activation Token*********:
+*************Qualifier*********::
+Actual string ::
+*************Activation Token*********:
+*************Qualifier*********:p
+Proposal Keyword Simple Assist:pass
+Proposal Keyword Simple Assist:print
+Actual string :print
+*************Activation Token*********:
+*************Qualifier*********:%
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :%s:%s:%s
+*************Activation Token*********:
+*************Qualifier*********:%
+Actual string :%
+*************Activation Token*********:
+*************Qualifier*********:(
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :(
+*************Activation Token*********:
+*************Qualifier*********:f
+Proposal Keyword Simple Assist:finally:
+Proposal Keyword Simple Assist:for
+Proposal Keyword Simple Assist:from
+Actual string :file
+*************Activation Token*********:
+*************Qualifier*********:,
+Actual string :,
+*************Activation Token*********:
+*************Qualifier*********:l
+Proposal Keyword Simple Assist:lambda
+Actual string :lineno
+*************Activation Token*********:
+*************Qualifier*********:,
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :,
+*************Activation Token*********:
+*************Qualifier*********:l
+Proposal Keyword Simple Assist:lambda
+Actual string :line
+*************Activation Token*********:
+*************Qualifier*********:)
+Actual string :)
+*************Activation Token*********:
+*************Qualifier*********:,
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :,
+*************Activation Token*********:
+*************Qualifier*********:d
+Proposal Keyword Simple Assist:def
+Proposal Keyword Simple Assist:del
+Actual string :def
+*************Activation Token*********:
+*************Qualifier*********:c
+Proposal Keyword Simple Assist:class
+Proposal Keyword Simple Assist:continue
+Actual string :chomp
+*************Activation Token*********:
+*************Qualifier*********:(
+Actual string :(
+*************Activation Token*********:
+*************Qualifier*********:s
+Proposal Keyword Simple Assist:self
+Actual string :s
+*************Activation Token*********:
+*************Qualifier*********:)
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :)
+*************Activation Token*********:
+*************Qualifier*********::
+Actual string ::
+*************Activation Token*********:
+*************Qualifier*********:r
+Proposal Keyword Simple Assist:raise
+Proposal Keyword Simple Assist:return
+Actual string :return
+*************Activation Token*********:s.
+*************Qualifier*********:
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :s.
+*************Activation Token*********:
+*************Qualifier*********:r
+Proposal Keyword Simple Assist:raise
+Proposal Keyword Simple Assist:return
+Actual string :rstrip
+*************Activation Token*********:
+*************Qualifier*********:(
+Actual string :(
+*************Activation Token*********:
+*************Qualifier*********:)
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :)
+*************Activation Token*********:
+*************Qualifier*********:i
+Proposal Keyword Simple Assist:import
+Actual string :if
+*************Activation Token*********:
+*************Qualifier*********:_
+Proposal Keyword Simple Assist:__init__
+Actual string :__name__
+*************Activation Token*********:
+*************Qualifier*********:=
+Actual string :==
+*************Activation Token*********:
+*************Qualifier*********:_
+Proposal Keyword Simple Assist:__init__
+Actual string :__main__
+*************Activation Token*********:
+*************Qualifier*********::
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string ::
+*************Activation Token*********:
+*************Qualifier*********:m
+Actual string :main
+*************Activation Token*********:
+*************Qualifier*********:(
+Proposal default activation block 1:StringIO
+Proposal default activation block 1:stringold
+Proposal default activation block 1:stringprep
+Actual string :(
+*************Activation Token*********:
+*************Qualifier*********:)
+Actual string :)
