@@ -68,8 +68,8 @@ public class SimpleAssistProposal extends PyCompletionProposal implements ICompl
     }
 
     public SimpleAssistProposal(String replacementString, int replacementOffset, int replacementLength,
-            int cursorPosition, int priority) {
-        super(replacementString, replacementOffset, replacementLength, cursorPosition, priority);
+            int cursorPosition, String additionProposalInfo, int priority) {
+        super(replacementString, replacementOffset, replacementLength, cursorPosition, additionProposalInfo, priority);
     }
 
     public SimpleAssistProposal(String replacementString, int replacementOffset, int replacementLength,

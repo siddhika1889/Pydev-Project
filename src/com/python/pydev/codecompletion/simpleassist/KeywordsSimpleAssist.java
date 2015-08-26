@@ -9,12 +9,20 @@
  */
 package com.python.pydev.codecompletion.simpleassist;
 
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.StringTokenizer;
 
+import org.eclipse.core.resources.IFile;
+import org.eclipse.core.runtime.IPath;
+import org.eclipse.jface.text.BadLocationException;
+import org.eclipse.jface.text.IDocument;
+import org.eclipse.jface.text.ITextViewer;
 import org.eclipse.jface.text.contentassist.ICompletionProposal;
+import org.eclipse.ui.IWorkbenchPart;
+import org.eclipse.ui.PlatformUI;
 import org.python.pydev.core.IGrammarVersionProvider;
 import org.python.pydev.core.IPythonNature;
 import org.python.pydev.core.MisconfigurationException;
@@ -64,7 +72,49 @@ yield
  */
 public class KeywordsSimpleAssist implements ISimpleAssistParticipant, ISimpleAssistParticipant2 {
 
+    //    public KeywordsSimpleAssist() {
+    //        IPartListener2 openListener = new IPartListener2() {
+    //            @Override
+    //            public void partActivated(IWorkbenchPartReference partRef) {
+    //            }
+    //
+    //            @Override
+    //            public void partBroughtToTop(IWorkbenchPartReference partRef) {
+    //            }
+    //
+    //            @Override
+    //            public void partClosed(IWorkbenchPartReference partRef) {
+    //            }
+    //
+    //            @Override
+    //            public void partDeactivated(IWorkbenchPartReference partRef) {
+    //            }
+    //
+    //            @Override
+    //            public void partOpened(IWorkbenchPartReference partRef) {
+    //            }
+    //
+    //            @Override
+    //            public void partHidden(IWorkbenchPartReference partRef) {
+    //            }
+    //
+    //            @Override
+    //            public void partVisible(IWorkbenchPartReference partRef) {
+    //                IEditorInput ip = partRef.getPage().getActiveEditor().getEditorInput();
+    //                IPath path = ((FileEditorInput) ip).getPath();
+    //                String p = path.toOSString();
+    //                CachecaComputer.getInstance(p);
+    //            }
+    //
+    //            @Override
+    //            public void partInputChanged(IWorkbenchPartReference partRef) {
+    //            }
+    //        };
+    //        PlatformUI.getWorkbench().getActiveWorkbenchWindow().getPartService().addPartListener(openListener);
+    //    }
+
     public static String defaultKeywordsAsString() {
+
         String[] KEYWORDS = new String[] { "and", "assert", "break", "class", "continue", "def", "del",
                 //                "elif", -- starting with 'e'
                 //                "else:", -- starting with 'e'
@@ -137,35 +187,33 @@ public class KeywordsSimpleAssist implements ISimpleAssistParticipant, ISimpleAs
             } catch (MisconfigurationException e) {
             }
         }
-        return innerComputeProposals(activationToken, qualifier, offset, false, isPy3Syntax);
+        return innerComputeProposals(activationToken, qualifier, offset, false, isPy3Syntax, null);
     }
 
-    /**
-     * @see ISimpleAssistParticipant
-     */
     public Collection<ICompletionProposal> computeCompletionProposalsTest(String activationToken, String qualifier,
-            int offset) {
+            PySelection ps, IPySyntaxHighlightingAndCodeCompletionEditor edit, int offset, ITextViewer viewer) {
         boolean isPy3Syntax = false;
-        /* if (CodeCompletionPreferencesPage.forcePy3kPrintOnPy2()) {
-             isPy3Syntax = true;
+        if (CodeCompletionPreferencesPage.forcePy3kPrintOnPy2()) {
+            isPy3Syntax = true;
 
-         } else {
-             try {
-                 IPythonNature nature = edit.getPythonNature();
-                 if (nature != null) {
-                     isPy3Syntax = nature.getGrammarVersion() >= IGrammarVersionProvider.GRAMMAR_PYTHON_VERSION_3_0;
-                 }
-             } catch (MisconfigurationException e) {
-             }
-         }*/
-        return innerComputeProposals(activationToken, qualifier, offset, false, isPy3Syntax);
+        } else {
+            try {
+                IPythonNature nature = edit.getPythonNature();
+                if (nature != null) {
+                    isPy3Syntax = nature.getGrammarVersion() >= IGrammarVersionProvider.GRAMMAR_PYTHON_VERSION_3_0;
+                }
+            } catch (MisconfigurationException e) {
+            }
+        }
+        return innerComputeProposals(activationToken, qualifier, offset, false, isPy3Syntax, viewer);
     }
 
     /**
      * @see ISimpleAssistParticipant2
      */
-    public Collection<ICompletionProposal> computeConsoleProposals(String activationToken, String qualifier, int offset) {
-        return innerComputeProposals(activationToken, qualifier, offset, true, false);
+    public Collection<ICompletionProposal> computeConsoleProposals(String activationToken, String qualifier, int offset
+            ) {
+        return innerComputeProposals(activationToken, qualifier, offset, true, false, null);
     }
 
     /**
@@ -179,39 +227,168 @@ public class KeywordsSimpleAssist implements ISimpleAssistParticipant, ISimpleAs
      * @return a list with the completions available.
      */
     private Collection<ICompletionProposal> innerComputeProposals(String activationToken, String qualifier, int offset,
-            boolean buildForConsole, boolean isPy3Syntax) {
+            boolean buildForConsole, boolean isPy3Syntax, ITextViewer viewer) {
 
-        List<ICompletionProposal> results = new ArrayList<ICompletionProposal>();
-        //check if we have to use it
-        if (!CodeCompletionPreferencesPage.useKeywordsCodeCompletion()) {
-            return results;
+        //get offset
+        int replacementLength = 0;
+        int masterOffset = offset;
+        IDocument doc = viewer.getDocument();
+        System.out.println("offset:" + offset);
+        System.out.println("activationToken:" + activationToken);
+        System.out.println("qualifier:" + qualifier);
+        try {
+            offset = masterOffset;
+            //if(offset < 0) return eclipseProposals;
+
+            if (doc != null)
+            {
+                char c = doc.getChar(offset - 1);
+                while (c != '.' && offset > 1) {
+                    offset--;
+                    replacementLength++;
+                    c = doc.getChar(offset - 1);
+                }
+            }
+        } catch (BadLocationException e) {
+            e.printStackTrace();
         }
-
-        //get them
-        int qlen = qualifier.length();
-        if (activationToken.equals("") && qualifier.equals("") == false) {
-            for (String keyw : CodeCompletionPreferencesPage.getKeywords()) {
-                if (keyw.startsWith(qualifier) && !keyw.equals(qualifier)) {
-                    if (buildForConsole) {
-                        //In the console, only show the simple completions without any special treatment
-                        results.add(new PyCompletionProposal(keyw, offset - qlen, qlen, keyw.length(),
-                                PyCompletionProposal.PRIORITY_DEFAULT));
-
-                    } else {
-                        //in the editor, we'll create a special proposal with more features
-                        if (isPy3Syntax) {
-                            if ("print".equals(keyw)) {
-                                keyw = "print()";//Handling print in py3k.
-                            }
-                        }
-                        results.add(new SimpleAssistProposal(keyw, offset - qlen, qlen, keyw.length(),
-                                PyCompletionProposal.PRIORITY_DEFAULT));
+        //get prefix
+        StringBuilder b = new StringBuilder();
+        try {
+            int numberOfSeparators = 0;
+            offset = masterOffset;
+            offset -= replacementLength;
+            char c = doc.getChar(offset - 1);
+            boolean prevCharWasWhitespace = false;
+            while (numberOfSeparators < 10 && offset > 1) {
+                if (!(Character.isWhitespace(doc.getChar(offset - 1)))) {
+                    prevCharWasWhitespace = false;
+                    b.append(c);
+                }
+                else {
+                    if (prevCharWasWhitespace == false) {
+                        b.append(" ");
                     }
+                    prevCharWasWhitespace = true;
+                }
+                if (c == ' ' || c == '.' || c == '(' || c == ')' || c == '{' || c == '}' || c == ';' || c == '['
+                        || c == ']' || c == '\n') {
+                    numberOfSeparators++;
+                }
+                offset--;
+                if (offset < 0) {
+                    break;
+                }
+                c = doc.getChar(offset - 1);
+            }
+        } catch (BadLocationException e) {
+            e.printStackTrace();
+        }
+        String pref = b.reverse().toString();
+        System.out.println("pref:" + pref);
+
+        //get inputs
+        StringBuilder input = new StringBuilder();
+        try {
+            offset = masterOffset;
+            char c = doc.getChar(offset - 1);
+            while (c != '.' && offset > 1) {
+                input.append(c);
+                offset--;
+                c = doc.getChar(offset - 1);
+            }
+        } catch (BadLocationException e) {
+            e.printStackTrace();
+        }
+        String inp = input.reverse().toString().trim();
+        //System.out.println("Pref:" + pref);
+        System.out.println("inp:" + inp);
+        // Get the currently selected file from the editor
+        IWorkbenchPart workbenchPart = PlatformUI.getWorkbench().getActiveWorkbenchWindow().getActivePage()
+                .getActivePart();
+        IFile file = (IFile) workbenchPart.getSite().getPage().getActiveEditor().getEditorInput()
+                .getAdapter(IFile.class);
+        if (file == null) {
+            try {
+                throw new FileNotFoundException();
+            } catch (FileNotFoundException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        }
+        IPath path = file.getRawLocation();
+        //IPath path = IResource.getRawLocation()
+        String realPath = path.toOSString();
+        System.out.println("realPath:" + realPath);
+        List<ICompletionProposal> cachecaProposals = new ArrayList<ICompletionProposal>();
+
+        CachecaComputer comp = CachecaComputer.getInstance(realPath);
+        if (CachecaComputer.isInitialized() == true) {
+            ArrayList<Word> p = comp.getCandidates(pref);
+            int found = 0;
+
+            for (int i = p.size() - 1; i >= 0 && found < 100; i--) {
+                String token = p.get(i).mToken;
+                if (token.length() < inp.length()) {
+                    continue;
+                }
+                //System.out.println("token:" + token);
+                if (inp.length() >= 1 ? p.get(i).mToken.substring(0, inp.length()).equals(inp) : true) {
+                    // System.out.println("Replacement Offset:" + (masterOffset - replacementLength + 1));
+                    //System.out.println("Token:" + token);
+                    cachecaProposals.add(new PyCompletionProposal(token, masterOffset - replacementLength,
+                            replacementLength, token.length(),
+                            "Suggested by CACHECA with probability " + p.get(i).mProb,
+                            PyCompletionProposal.PRIORITY_DEFAULT));
+                    found++;
                 }
             }
         }
+        //        for (ICompletionProposal icp : cachecaProposals)
+        //        {
+        //            System.out.println(icp.getDisplayString() + icp.getAdditionalProposalInfo());
+        //        }
+        if (cachecaProposals.size() == 0)
+        /* start of pydev code */
+        {
+            System.out.println("Cacheca proposal count 0");
+            offset = masterOffset;
+            List<ICompletionProposal> results = new ArrayList<ICompletionProposal>();
+            //check if we have to use it
+            if (!CodeCompletionPreferencesPage.useKeywordsCodeCompletion()) {
+                cachecaProposals.addAll(results);
+            }
 
-        return results;
+            //get them
+            int qlen = qualifier.length();
+            if (activationToken.equals("") && qualifier.equals("") == false) {
+                for (String keyw : CodeCompletionPreferencesPage.getKeywords()) {
+                    if (keyw.startsWith(qualifier) && !keyw.equals(qualifier)) {
+                        if (buildForConsole) {
+                            //In the console, only show the simple completions without any special treatment
+                            results.add(new PyCompletionProposal(keyw, offset - qlen, qlen, keyw.length(),
+                                    "Suggested by Pydev", PyCompletionProposal.PRIORITY_DEFAULT));
+
+                        } else {
+                            //in the editor, we'll create a special proposal with more features
+                            if (isPy3Syntax) {
+                                if ("print".equals(keyw)) {
+                                    keyw = "print()";//Handling print in py3k.
+                                }
+                            }
+                            results.add(new SimpleAssistProposal(keyw, offset - qlen, qlen, keyw.length(),
+                                    "Suggested by Pydev", PyCompletionProposal.PRIORITY_DEFAULT));
+                        }
+                    }
+                }
+            }
+            cachecaProposals.addAll(results);
+        }
+        // return results;
+
+        //end of pydev code 
+        return cachecaProposals;
+
     }
 
 }

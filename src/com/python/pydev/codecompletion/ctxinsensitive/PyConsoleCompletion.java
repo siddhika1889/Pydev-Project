@@ -62,6 +62,7 @@ public class PyConsoleCompletion extends CtxInsensitiveImportComplProposal {
             this.diff = offset - (fReplacementOffset + fReplacementLength);
 
             deltaInLine = document.getLength() - (fReplacementOffset + fReplacementLength);
+            String test = document.getContentType(offset);
 
             String currentLineContents = document.get(commandLineOffset, document.getLength() - commandLineOffset);
 

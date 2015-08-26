@@ -166,16 +166,18 @@ public class Ngram {
      **/
     public ArrayList<Word> getCandidates(String prefix, boolean useBackoff) {
         ArrayList<Word> candidates = new ArrayList<Word>();
-
+        System.out.println("prefix in getCandidates:" + prefix);
         int n = Utilities.countWords(prefix);
         // here n is the number of grams in the prefix, the real "n" should be n+1
         // therefore, here we use "n" rather than "n-1"
-
+        System.out.println("n:" + n);
         Map<String, ArrayList<Word>> ngramMap = mNgramsList.get(n);
+
         ArrayList<Word> val = ngramMap.get(prefix);
         if (val != null)
         {
             candidates = val;
+            System.out.println("candidates.get(0)" + candidates.get(0).mToken);
             return candidates;
         }
         else

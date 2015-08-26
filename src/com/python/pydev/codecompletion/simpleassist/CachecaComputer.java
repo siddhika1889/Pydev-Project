@@ -25,7 +25,10 @@ public class CachecaComputer {
 
     public static CachecaComputer getInstance(String p) {
         if (!p.equals(file)) {
-            INSTANCE.init(Platform.getBundle(Activator.PLUGIN_ID).getEntry("train.3grams"), 3, p);
+            //URL u = new URL("python.tokens.3grams");
+            String symbolic_name = "com.python.pydev.codecompletion";
+            INSTANCE.init(Platform.getBundle(symbolic_name).getEntry("src/python.tokens.3grams"), 3, p);
+
         }
         return INSTANCE;
     }
@@ -71,18 +74,19 @@ public class CachecaComputer {
         // order = # prefix + 1 (current token)
         // Take 3-gram for example, the prefix contains 2 tokens
         ngramPrefix = Utilities.getLastNWords(prefix, Data.NGRAM_ORDER - 1);
+        System.out.println("ngramPrefix:" + ngramPrefix);
 
         cachePrefix = Utilities.getLastNWords(prefix, Data.CACHE_ORDER - 1);
-
+        System.out.println("cachePrefix:" + cachePrefix);
         // n-gram word candidates
         candidates = (Data.NGRAM).getCandidates(ngramPrefix, Data.USE_BACKOFF);
-
+        System.out.println("Cache model suggestion count before" + candidates.size());
         if (Data.USE_CACHE)
         {
             // update the candidates according to the cache
             candidates = (Data.CACHE).updateCandidates(cachePrefix, candidates);
         }
-
+        System.out.println("Cache model suggestion count after" + candidates.size());
         return candidates;
     }
 }
