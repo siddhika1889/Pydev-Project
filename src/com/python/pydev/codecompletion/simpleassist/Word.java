@@ -16,4 +16,9 @@ public class Word {
         mProb = prob;
         mToken = token;
     }
+
+    @Override
+    public String toString() {
+        return this.mToken + ":" + this.mProb;
+    }
 }

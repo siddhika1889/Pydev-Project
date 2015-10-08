@@ -228,26 +228,21 @@ public class KeywordsSimpleAssist implements ISimpleAssistParticipant, ISimpleAs
      */
     private Collection<ICompletionProposal> innerComputeProposals(String activationToken, String qualifier, int offset,
             boolean buildForConsole, boolean isPy3Syntax, ITextViewer viewer) {
-
+        IDocument doc = viewer.getDocument();
         //get offset
         int replacementLength = 0;
-        int masterOffset = offset;
-        IDocument doc = viewer.getDocument();
+        int masterOffset = offset - 1;
         System.out.println("offset:" + offset);
         System.out.println("activationToken:" + activationToken);
-        System.out.println("qualifier:" + qualifier);
         try {
             offset = masterOffset;
-            //if(offset < 0) return eclipseProposals;
-
-            if (doc != null)
-            {
-                char c = doc.getChar(offset - 1);
-                while (c != '.' && offset > 1) {
-                    offset--;
-                    replacementLength++;
-                    c = doc.getChar(offset - 1);
-                }
+            char c = doc.getChar(offset);
+            while (offset > 0
+                    && !(c == ' ' || c == '.' || c == '(' || c == ')' || c == '{' || c == '}' || c == ';' || c == '['
+                            || c == ']' || c == '\n')) {
+                offset--;
+                replacementLength++;
+                c = doc.getChar(offset);
             }
         } catch (BadLocationException e) {
             e.printStackTrace();
@@ -258,10 +253,10 @@ public class KeywordsSimpleAssist implements ISimpleAssistParticipant, ISimpleAs
             int numberOfSeparators = 0;
             offset = masterOffset;
             offset -= replacementLength;
-            char c = doc.getChar(offset - 1);
+            char c = doc.getChar(offset);
             boolean prevCharWasWhitespace = false;
-            while (numberOfSeparators < 10 && offset > 1) {
-                if (!(Character.isWhitespace(doc.getChar(offset - 1)))) {
+            while (numberOfSeparators < 10 && offset >= 0) {
+                if (!(Character.isWhitespace(doc.getChar(offset)))) {
                     prevCharWasWhitespace = false;
                     b.append(c);
                 }
@@ -279,7 +274,7 @@ public class KeywordsSimpleAssist implements ISimpleAssistParticipant, ISimpleAs
                 if (offset < 0) {
                     break;
                 }
-                c = doc.getChar(offset - 1);
+                c = doc.getChar(offset);
             }
         } catch (BadLocationException e) {
             e.printStackTrace();
@@ -291,11 +286,12 @@ public class KeywordsSimpleAssist implements ISimpleAssistParticipant, ISimpleAs
         StringBuilder input = new StringBuilder();
         try {
             offset = masterOffset;
-            char c = doc.getChar(offset - 1);
-            while (c != '.' && offset > 1) {
+            char c = doc.getChar(offset);
+            while (!(c == ' ' || c == '.' || c == '(' || c == ')' || c == '{' || c == '}' || c == ';' || c == '['
+                    || c == ']' || c == '\n')) {
                 input.append(c);
                 offset--;
-                c = doc.getChar(offset - 1);
+                c = doc.getChar(offset);
             }
         } catch (BadLocationException e) {
             e.printStackTrace();
@@ -327,7 +323,7 @@ public class KeywordsSimpleAssist implements ISimpleAssistParticipant, ISimpleAs
             ArrayList<Word> p = comp.getCandidates(pref);
             int found = 0;
 
-            for (int i = p.size() - 1; i >= 0 && found < 100; i--) {
+            for (int i = p.size() - 1; i >= 0 && found < 20; i--) {
                 String token = p.get(i).mToken;
                 if (token.length() < inp.length()) {
                     continue;
@@ -336,7 +332,7 @@ public class KeywordsSimpleAssist implements ISimpleAssistParticipant, ISimpleAs
                 if (inp.length() >= 1 ? p.get(i).mToken.substring(0, inp.length()).equals(inp) : true) {
                     // System.out.println("Replacement Offset:" + (masterOffset - replacementLength + 1));
                     //System.out.println("Token:" + token);
-                    cachecaProposals.add(new PyCompletionProposal(token, masterOffset - replacementLength,
+                    cachecaProposals.add(new PyCompletionProposal(token, masterOffset - replacementLength + 1,
                             replacementLength, token.length(),
                             "Suggested by CACHECA with probability " + p.get(i).mProb,
                             PyCompletionProposal.PRIORITY_DEFAULT));
@@ -354,12 +350,12 @@ public class KeywordsSimpleAssist implements ISimpleAssistParticipant, ISimpleAs
             System.out.println("Cacheca proposal count 0");
             offset = masterOffset;
             List<ICompletionProposal> results = new ArrayList<ICompletionProposal>();
-            //check if we have to use it
+            // check if we have to use it
             if (!CodeCompletionPreferencesPage.useKeywordsCodeCompletion()) {
                 cachecaProposals.addAll(results);
             }
 
-            //get them
+            // get them
             int qlen = qualifier.length();
             if (activationToken.equals("") && qualifier.equals("") == false) {
                 for (String keyw : CodeCompletionPreferencesPage.getKeywords()) {
